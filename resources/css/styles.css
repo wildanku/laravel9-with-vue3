@@ -1,0 +1,38 @@
+html { 
+    overflow-y: auto;
+}
+
+body{
+    margin: 0 !important;
+}
+
+body #app {
+    background: #fcfcfc !important;
+    min-height: 100vh;
+}
+
+#app .content {
+    padding: 60px 30px;
+}
+
+.w-full {
+    width: 100% !important;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    #app .content {
+        padding: 15px 20px;
+    }
+}
